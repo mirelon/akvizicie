@@ -86,6 +86,103 @@ export function words() {
         {
             word: 'adresa',
             description: 'Nápis na zásielke, označujúci meno a bydlisko osoby, ktorej je zásielka určená'
+        },
+        {
+            word: 'afázia',
+            description: 'Strata reči spôsobená poruchou rečového centra v mozgu'
+        },
+        {
+            word: 'aforizmus',
+            description: 'Stručný výrok obsahujúci vtipnú myšlienku'
+        },
+        {
+            word: 'afekt',
+            description: 'Prudké hnutie mysle za súčasnej straty kontroly vôle, rozčúlenie, vzplanutie hnevu, strachu'
+        },
+        {
+            word: 'afélium',
+            description: 'Bod na dráhe obežnice, v ktorom je od slnka najvzdialenejšia'
+        },
+        {
+            word: 'aféra',
+            description: 'Vzrušujúca a pohoršujúca udalosť, príhoda: finančná, peňažná, špionážna, podvodnícka, politická'
+        },
+        {
+            word: 'agapé',
+            description: 'Večerná slávnosť u prvých kresťanov; veľkolepá hostina, hodovanie'
+        },
+        {
+            word: 'agapé',
+            description: 'Večerná slávnosť u prvých kresťanov; veľkolepá hostina, hodovanie'
+        },
+        {
+            word: 'agar',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/71/Agar-agar.jpg',
+            description: 'Rôsolovitá hmota, vyrobená z morských chalúh, používaná v kuchárstve a ako živná pôda pre kultúry baktérií'
+        },
+        {
+            word: 'agát',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Robinia-pseudoacacia.JPG',
+            description: 'Vysoký strom alebo ker s bielymi voňavými kvetmi'
+        },
+        {
+            word: 'agáva',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/32/California_Cabbage_Agave.jpg',
+            description: 'Tropická rastlina s dužnatými listami, pestovaná pre okrasu alebo pre listy, ktoré poskytujú textilnú surovinu'
+        },
+        {
+            word: 'agenda',
+            description: 'Súhrn administratívnych úloh zamestnanca alebo funkcionára'
+        },
+        {
+            word: 'agent',
+            description: 'Policajný alebo tajný, neuniformovaný policajt'
+        },
+        {
+            word: 'agentúra',
+            description: 'Spoločnosť získavajúca správy pre noviny, tlačová, spravodajská kancelária: tlačová, spravodajská'
+        },
+        {
+            word: 'agilita',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/LabradorWeaving.jpg',
+            description: 'Horlivá činnosť, pohyblivosť'
+        },
+        {
+            word: 'agitácia',
+            description: 'Činnosť v prospech niekoho/niečoho, proti niekomu/niečomu, získavanie prívržencov; rozširovanie určitých myšlienok a hesiel, presviedčanie'
+        },
+        {
+            word: 'aglomerácia',
+            description: 'Zhlukovanie, zoskupenie, nakopenie, nahromadenie obyvateľstva/priemyslu'
+        },
+        {
+            word: 'agónia',
+            description: 'Smrteľný zápas, smrteľná mdloba, skonávanie'
+        },
+        {
+            word: 'agora',
+            description: 'Zhromaždenie ľudu v starom Grécku'
+        },
+        {
+            word: 'agrafia',
+            description: 'Strata schopnosti písať po porušení mozgového centra'
+        },
+        {
+            word: 'agrárnik',
+            description: 'Bohatý roľník, statkár v buržoáznej ČSR'
+        },
+        {
+            word: 'agregácia',
+            description: 'Zoskupenie, zoskupovanie, zhlukovanie, stmelenie, stmeľovanie'
+        },
+        {
+            word: 'agresia',
+            description: 'Napadnutie cudzej krajiny ozbrojenými silami s úmyslom obsadiť jej územie'
+        },
+        {
+            word: 'agrikultúra',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/04-09-12-Schaupfl%C3%BCgen-Fahrenwalde-RalfR-IMG_1232.jpg',
+            description: 'Poľnohospodárstvo; obrábanie polí'
         }
     ]
 }
