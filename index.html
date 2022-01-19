@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>Dotazník na vek akvizície</title>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dotaznik.css" />
     <script src="js/jquery.min.js"></script>
-    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/dotaznik.js"></script>
 </head>
 <body>
 <h1>Dotazník na vek akvizície</h1>
@@ -16,22 +16,8 @@
         Roky: <input type="number" min="0" max="99" />
         Mesiace: <input type="number" min="0" max="11" />
     </fieldset>
-    <table>
-        <thead>
-        <tr>
-            <th>Slovo</th>
-            <th><span>Nepozná slovo</span></th>
-            <th><span>Rozumie slovu, ale nepoužíva ho</span></th>
-            <th><span>Rozumie slovu, aj ho používa</span></th>
-        </tr>
-        </thead>
-    </table>
-    <datalist id="ovpovede">
-        <option value="1" label="Neviem / Nechcem odpovedať">b</option>
-        <option value="2" label="Nepozná slovo"></option>
-        <option value="3" label="Rozumie slovu, ale nepoužíva ho"></option>
-        <option value="4" label="Rozumie slovu, aj ho používa"></option>
-    </datalist>
 </form>
+<div id="input"></div>
+<input id="answer" />
 </body>
 </html>
