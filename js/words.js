@@ -183,6 +183,185 @@ export function words() {
             word: 'agrikultúra',
             image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/04-09-12-Schaupfl%C3%BCgen-Fahrenwalde-RalfR-IMG_1232.jpg',
             description: 'Poľnohospodárstvo; obrábanie polí'
+        },
+        {
+            word: 'akácia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Ngorongoro_Acacia_xanthophloea.jpg',
+            description: 'Tropický strom poskytujúci arabskú gumu'
+        },
+        {
+            word: 'akadémia',
+            image: '',
+            description: 'Najvyššia ustanovizeň na organizovanie vedeckej práce; Slovenská ... vied'
+        },
+        {
+            word: 'akapnia',
+            description: 'Nadmerné zníženie oxidu uhličitého v krvi'
+        },
+        {
+            word: 'akcelerácia',
+            description: 'Zrýchlenie'
+        },
+        {
+            word: 'akcent',
+            description: 'Zdôraznenie slabiky alebo celého slova vo vete, prízvuk: slovný, vetný ...'
+        },
+        {
+            word: 'akcia',
+            description: 'Druh cenného papiera; Činnosť vymedzená vopred určeným cieľom, zámerný postup, podujatie'
+        },
+        {
+            word: 'aker',
+            description: 'Staršia plošná poľná miera - 40.5 áru'
+        },
+        {
+            word: 'aker',
+            description: 'Staršia plošná poľná miera - 40.5 áru'
+        },
+        {
+            word: 'aklimatizácia',
+            description: 'Prispôsobenie (sa) novému podnebiu, prostrediu, zdomácnenie'
+        },
+        {
+            word: 'akné',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Akne-jugend.jpg',
+            description: 'Najčastejšie kožné ochorenie, obvykle sa začína počas puberty spoločne s hormonálnymi zmenami'
+        },
+        {
+            word: 'akomodácia',
+            description: 'Prispôsobenie (sa), napr. schopnosť oka prispôsobiť sa na pozeranie do blízka'
+        },
+        {
+            word: 'akord',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/C_sharp_major_chord_for_guitar.svg',
+            description: 'Súzvuk troch alebo viac súčasne znejúcich tónov'
+        },
+        {
+            word: 'akordeón',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Fisarmonica_nera_a_piano.png',
+            description: 'Hudobný nástroj podobný harmonike, ale s klaviatúrou pre pravú ruku'
+        },
+        {
+            word: 'akosť',
+            description: 'Súhrn vlastností, hodnota, kvalita'
+        },
+        {
+            word: 'akreditácia',
+            description: 'Potvrdenie o splnení podmienok požadovanej kvality vzdelávania poskytovaného školou'
+        },
+        {
+            word: 'akrobacia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Acrobat.jpg',
+            description: 'Obratný, smelý, šikovný cvik, výkon, obrat, robený obyčajne za podmienok nebezpečných životu'
+        },
+        {
+            word: 'akrobat',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Theaker_von_ziarno_20050722_closeup.jpg',
+            description: 'človek, ktorý robí neobvyklé cviky za podmienok nebezpečných životu'
+        },
+        {
+            word: 'akronym',
+            description: 'Umelé slovo, skratka zo začiatočných písmen alebo slabík názvu spolkov, inštitúcií ap., napr. SĽUK (Slovenský ľudový umelecký kolektív)'
+        },
+        {
+            word: 'akropola',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Acropolis.JPG',
+            description: 'Najvyššie položená časť starogréckych miest'
+        },
+        {
+            word: 'akryl',
+            description: 'Disperzná farba používaná v umeleckej maľbe a stavebníctve, na báze živice a zmesi pigmentov. Čerstvá sa dá riediť vodou, v zaschnutom stave je voči vode odolná'
+        },
+        {
+            word: 'aksamietnica',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/French_marigold_Tagetes_patula.jpg',
+            description: 'Žlto kvitnúca rastlina s aromatickými listami fialového až hnedočerveného nádychu'
+        },
+        {
+            word: 'akt',
+            description: 'Čin, úkon: správny, zákonodarný, pietný, pohlavný; dejstvo divadelnej hry'
+        },
+        {
+            word: 'aktínia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Actinia_equina2.JPG',
+            description: 'Malý morský živočích, sasanka morská'
+        },
+        {
+            word: 'aktínium',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png',
+            description: 'Rádioaktívny prvok nachádzajúci sa v uránových rudách; protónové číslo 89, je podľa neho pomenovaná skupina v 7. perióde periodickej tabuľky prvkov'
+        },
+        {
+            word: 'aktivácia',
+            description: 'Povzbudenie k činnosti, uvedenie do chodu, napr. proces po kúpe SIM karty; úprava látok tak, aby boli schopné chemicky reagovať; premena neaktívneho prvku na rádioaktívny; čistenie odpadových vôd s využitím mikroorganizmov'
+        },
+        {
+            word: 'aktivita',
+            description: 'Zvýšená, horlivá činnosť, čulosť. Opak pasivity'
+        },
+        {
+            word: 'aktivizmus',
+            description: 'Dlhoročná, cieľavedomá práca; činná účasť na verejnom a politickom živote'
+        },
+        {
+            word: 'aktívum',
+            description: 'Majetok bez dlhov; časť bilancie podniku, obsahujúca všetky druhy materiálnych hodnôt (peniaze, tovar) alebo pohľadávky; opak pasíva'
+        },
+        {
+            word: 'aktovka',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Briefcase.jpg',
+            description: 'Kapsa na knihy, spisy, napr. školská'
+        },
+        {
+            word: 'aktualizácia',
+            description: 'Použitie bežných výrazových prostriedkov novým spôsobom; privedenie verzie softvéru do novšieho, posledného stavu'
+        },
+        {
+            word: 'akumulácia',
+            description: 'Nakopenie, hromadenie, nahromadenie, '
+        },
+        {
+            word: 'akumulátor',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Starterbatterie.jpg',
+            description: 'Prístroj na hromadenie energie (najmä elektrickej)'
+        },
+        {
+            word: 'akupunktúra',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Acupuncture1-1.jpg',
+            description: 'Alternatívna a tradičná medicínska metóda pochádzajúca z Číny. Metóda spočíva v zapichovaní veľmi tenkých ihličiek do citlivých a konkrétnych bodov v koži pacienta. Existuje veľké množstvo týchto bodov.'
+        },
+        {
+            word: 'akustika',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Rfel_vsesmer_front.png',
+            description: 'Náuka o zvuku; počuteľnosť hudby, reči v nejakej miestnosti'
+        },
+        {
+            word: 'akuzatív',
+            description: '4. pád v skloňovaní, vyjadrujúci vo vete najmä priamy predmet; koho? čo?'
+        },
+        {
+            word: 'akvadukt',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Pont_du_gard.jpg',
+            description: 'Most na vedenie vodného toku cez prekážku'
+        },
+        {
+            word: 'akvamarín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Aigue-marine_Pakistan_180308.jpg',
+            description: 'Drahokam modrozelenej farby, odroda berylu'
+        },
+        {
+            word: 'akvarel',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Watercolours.jpg',
+            description: 'Vodová farba'
+        },
+        {
+            word: 'akvárium',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Amaterske_akvarium.jpg',
+            description: 'Umelá nádrž (často sklená nádoba) s vodou na pestovanie vodných živočíchov (najmä rýb) a rastlín'
+        },
+        {
+            word: 'akvizícia',
+            description: 'Získanie, nadobudnutie napr. zákazníkov, objednávok, vecí, majetku'
         }
     ]
 }
