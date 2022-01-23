@@ -492,6 +492,110 @@ export function words() {
             word: 'alizarín',
             image: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Alizarin-sample.jpg',
             description: 'Druh červeného rastlinného farbiva, prvé farbivo, ktoré sa začalo vyrábať synteticky'
+        },
+        {
+            word: 'alka',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Keulemans-GreatAuk.jpg',
+            description: 'Vyhynutý morský vták, obývajúci chladné moria severnej pologule'
+        },
+        {
+            word: 'alkaloid',
+            description: 'Dusíkatá látka rastlinného pôvodu, zásaditého charakteru, napr. morfín, kofeín, nikotín, kokaín'
+        },
+        {
+            word: 'alkán',
+            description: 'Uhľovodík spojený výlučne jednoduchou kovalentnou väzbou, napr. metán, etán, propán, bután, ...'
+        },
+        {
+            word: 'alkana',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Alkanna_tinctoria2.jpg',
+            description: 'Rastlina rastúca pri Stredozemnom mori, z ktorej koreňa sa vyrába červené farbivo'
+        },
+        {
+            word: 'alkazár',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Alcazar_de_Toledo.jpg',
+            description: 'V užšom zmysle typ pevnostnej budovy stavanej v mestách na Pyrenejskom polostrove Maurami, v širšom zmysle opevnený hrad či pevnosť vôbec'
+        },
+        {
+            word: 'alkohol',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Common_alcoholic_beverages.jpg',
+            description: 'Opojný nápoj obsahujúci etanol; liehovina; napr. pivo, víno, tvrdé'
+        },
+        {
+            word: 'alkoholizmus',
+            description: 'Nadmierne pitie liehovín, pijanstvo'
+        },
+        {
+            word: 'allegro',
+            description: 'Živo, veselo, rýchlo; časť hudobnej skladby al. hudobná skladba v tomto tempe'
+        },
+        {
+            word: 'almanach',
+            description: 'Zborník prác, ročenka: literárny, umelecký, lekársky; druh astronomických tabuliek udávajúcich polohu planét'
+        },
+        {
+            word: 'almara',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Schrank2.jpg',
+            description: 'veľká skriňa v sakristii, ktorá slúži k uchovávaniu liturgických predmetov'
+        },
+        {
+            word: 'almužna',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/David_-_Belisarius.jpg',
+            description: 'Malý dar chudobnému (žobrákovi)'
+        },
+        {
+            word: 'alokúcia',
+            description: 'Verejný prívet, oslovenie (najmä pápeža ku kardinálom)'
+        },
+        {
+            word: 'alopatia',
+            description: 'Spôsob liečenia založený na biologickom pôsobení liekov, pri ktorom sa používajú liečivá vyvolávajúce u zdravého opačné príznaky'
+        },
+        {
+            word: 'alpaka',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Alpaka_Lama_pacos_RB2.jpg',
+            description: 'Druh lamy; vlna z tohto zvieraťa; zliatina medi, niklu a zinku'
+        },
+        {
+            word: 'alpinizmus',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Mountaineers_in_High_Tatry_mountains_winter.jpg',
+            description: 'Vysokohorská turistika; horolezectvo'
+        },
+        {
+            word: 'alt',
+            description: 'Hlboký ženský alebo chlapčenský hlas'
+        },
+        {
+            word: 'altánok',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Ko%C5%A1ice%2C_hudobn%C3%BD_alt%C3%A1nok_-_panoramio.jpg',
+            description: 'Malá otvorená alebo zasklená stavba so strechou, chrániaca pred dažďom a slnkom, rôzneho tvaru pôdorysu s jedným vstupným otvorom; záhradná besiedka, záhradný domček'
+        },
+        {
+            word: 'alternácia',
+            description: 'Obmieňanie, striedanie, nahradzovanie, vymieňanie'
+        },
+        {
+            word: 'alternatíva',
+            description: 'Možnosť voľby medzi dvoma (vylučujúcimi sa) prípadmi; možnosť výberu'
+        },
+        {
+            word: 'alternátor',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Alternator_1.svg',
+            description: 'Prístroj na výrobu striedavého elektrického prúdu'
+        },
+        {
+            word: 'altruizmus',
+            description: 'Nezištná starostlivosť o blaho iných ľudí, nehľadiaca na osobné záujmy, opak egoizmu'
+        },
+        {
+            word: 'alúvium',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Amazon_alluvium_deposit_-_autazes.jpg',
+            description: 'Územie povodňových nánosov a usadenín s pôdnymi typmi, rastlinstvom, pod vplyvom poriečnej podzemnej vody'
+        },
+        {
+            word: 'alveola',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Bronchial_anatomy.jpg',
+            description: 'Guľovitý útvar v pľúcach, základná štruktúra a funkčná jednotka na výmenu plynov medzi organizmom a prostredím'
         }
     ]
 }
