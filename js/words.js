@@ -362,6 +362,136 @@ export function words() {
         {
             word: 'akvizícia',
             description: 'Získanie, nadobudnutie napr. zákazníkov, objednávok, vecí, majetku'
+        },
+        {
+            word: 'alabaster',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Alabaster.jpg',
+            description: 'Biela, jemnozrná odroda sadrovca'
+        },
+        {
+            word: 'alarm',
+            image: '/img/alarm.png',
+            description: 'Znamenie na poplach'
+        },
+        {
+            word: 'alba',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Stoledeacon.jpg',
+            description: 'Dlhé biele liturgické kňazské rúcho'
+        },
+        {
+            word: 'albatros',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Short_tailed_albatross.jpg',
+            description: 'Druh veľkého morského vtáka'
+        },
+        {
+            word: 'albín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Albinisitic_man_portrait.jpg',
+            description: 'Jedinec, ktorý nemá schopnosť tvoriť kožné farbivo (pigment)'
+        },
+        {
+            word: 'album',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Family-album.jpg',
+            description: 'Zbierka pamätných vecí (známok, pohľadníc, fotografií) v podobe knihy'
+        },
+        {
+            word: 'albumín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/ALB_structure.png',
+            description: 'Bielkovina rozpustná vo vode; tvorí 55 – 65 % celkových plazmatických bielkovín; zabezpečuje, že plazma zostáva v cievach a neuniká do medzibunkového priestoru'
+        },
+        {
+            word: 'alchemilka',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Alchemilla_mollis_%28Fraaie_vrouwenmantel_bloeiwijze%291.jpg',
+            description: 'Liečivá rastlina z čeľade ružovité, používa sa vnútorne aj zvonka pri hnačkách, ťažkej menštruácii, na výplach ústnej dutiny, pri laryngitíde, pri krvácajúcich ďasnách a ako kloktadlo pri zápale hrtana'
+        },
+        {
+            word: 'alchýmia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Zosimosapparat.jpg',
+            description: 'Stredoveká chémia, ktorá sa usilovala premieňať kovy, najmä menejcenné, na zlato a striebro pomocou tzv. kameňa mudrcov a nájsť elixír života, ktorý by dal ľuďom večnú mladosť'
+        },
+        {
+            word: 'aldehyd',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Aldehyde2.png',
+            description: 'Organická zlúčenina, ktorá vzniká pri oxidácii alkoholov'
+        },
+        {
+            word: 'alegória',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg',
+            description: 'Symbolické vyjadrenie abstraktnej predstavy konkrétnym obrazom, inotaj'
+        },
+        {
+            word: 'aleja',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Tree_alley.jpg',
+            description: 'Cesta vysadená po oboch stranách stromami, stromoradie'
+        },
+        {
+            word: 'aleluja',
+            description: 'Radostný cirkevný chválospev'
+        },
+        {
+            word: 'alergia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Hives2010.JPG',
+            description: 'Zvýšená citlivosť organizmu na určité látky'
+        },
+        {
+            word: 'alergia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Hives2010.JPG',
+            description: 'Zvýšená citlivosť organizmu na určité látky'
+        },
+        {
+            word: 'alexandrín',
+            description: 'Šesťstopový jambický verš s prestávkou po tretej stope'
+        },
+        {
+            word: 'alexia',
+            description: 'Strata schopnosti čítať'
+        },
+        {
+            word: 'alfa',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Greek_alpha.png',
+            description: 'Prvé písmeno v gréckej abecede'
+        },
+        {
+            word: 'algebra',
+            description: 'Časť matematiky, v ktorej sa počíta so všeobecnými číslicami'
+        },
+        {
+            word: 'algoritmus',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Moj_algoritmus.JPG',
+            description: 'Konečná postupnosť presne definovaných inštrukcií na splnenie určitej úlohy'
+        },
+        {
+            word: 'aliancia',
+            description: 'Politické spojenectvo'
+        },
+        {
+            word: 'alias',
+            description: 'inak, inakšie; prezývka; párty spoločenská hra'
+        },
+        {
+            word: 'alibi',
+            description: 'Neprítomnosť obvineného na mieste trestného činu v čase, keď bol spáchaný, ako dôkaz jeho neviny'
+        },
+        {
+            word: 'aligátor',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/0/03/American_Alligator.jpg',
+            description: 'Rod krokodílov, žijúci v Severnej Amerike'
+        },
+        {
+            word: 'alimenty',
+            description: 'Príspevky na výživu, vyživovacie príspevky'
+        },
+        {
+            word: 'aliterácia',
+            description: 'Opakovanie rovnakých hlások na začiatku slov, najmä vo verši'
+        },
+        {
+            word: 'alitovanie',
+            description: 'Pokrývanie povrchu kovu hliníkom na zvýšenie odolnosti proti okysličovaniu, najmä za žiaru, cementácia'
+        },
+        {
+            word: 'alizarín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Alizarin-sample.jpg',
+            description: 'Druh červeného rastlinného farbiva, prvé farbivo, ktoré sa začalo vyrábať synteticky'
         }
     ]
 }
