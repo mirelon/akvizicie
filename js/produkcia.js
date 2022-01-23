@@ -5,8 +5,10 @@ let wrong = []
 let correct = []
 
 $(function(){
-    load()
-    saveAndNext()
+    if (document.getElementById('input')) {
+        load()
+        saveAndNext()
+    }
 })
 
 function saveAndNext() {
