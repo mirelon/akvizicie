@@ -596,6 +596,44 @@ export function words() {
             word: 'alveola',
             image: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Bronchial_anatomy.jpg',
             description: 'Guľovitý útvar v pľúcach, základná štruktúra a funkčná jednotka na výmenu plynov medzi organizmom a prostredím'
+        },
+        {
+            word: 'amalgám',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Amalgam.jpg',
+            description: 'Zliatina ortuti s kovom'
+        },
+        {
+            word: 'amarant',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Amaranthus_tricolor0.jpg',
+            description: 'Okrasná rastlina s tmavočervenými kvetmi; pseudocereálie, ktoré sa pestujú pre jedlé škrobové semená'
+        },
+        {
+            word: 'amatér',
+            description: 'Človek, ktorý zo záľuby, zábavy, (nie z povolania) niečo pestuje (napr. šport, umenie); opak profesionála'
+        },
+        {
+            word: 'ambícia',
+            description: 'Snaha vyniknúť, uplatniť sa, ušľachtilá ctižiadosť'
+        },
+        {
+            word: 'ambit',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/N%C3%A1rodn%C3%A1_kult%C3%BArna_pamiatka%2C_Benedikt%C3%ADnsky_kl%C3%A1%C5%A1tor_Hronsk%C3%BD_Be%C5%88adik_19_Slovakia63.jpg',
+            description: 'Stĺpová chodba vedúca dookola (napr. v kláštoroch)'
+        },
+        {
+            word: 'ambra',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Ambergris.jpg',
+            description: 'Voskovitá príjemne voňajúca látka, ktorá sa tvorí vo vnútornostiach vorvaňa (používa sa vo voňavkárstve)'
+        },
+        {
+            word: 'ambrózia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Ambrosia_artemisiifolia_plant7_%2811741895306%29.jpg',
+            description: 'Pokrm bohov v starogréckej mytológii, ktorý vraj robil nesmrteľným; rastlina pôvodom z Južnej a Severnej Ameriky'
+        },
+        {
+            word: 'ambulancia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Ambulanceczech.JPG',
+            description: 'Ordinácia (zubná, očná); lekárske oddelenie (obyčajne na klinike alebo v nemocnici) na poskytnutie prvej pomoci alebo na liečenie ľahších ochorení bez trvalého pobytu v nemocnici'
         }
     ]
 }
