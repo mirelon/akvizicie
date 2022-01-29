@@ -2,7 +2,9 @@ export function words() {
     return [
         {
             word: 'aba',
-            synonyms: ['abája'],
+            synonyms: [
+                'abája'
+            ],
             image: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Islamic_Clothing_Abaya.jpg',
             description: 'Voľný vlnený mužský plášť bez rukávov, nosený najmä pri náboženských púťach a slávnostiach v krajinách Predného východu'
         },
@@ -88,16 +90,16 @@ export function words() {
             description: 'Nápis na zásielke, označujúci meno a bydlisko osoby, ktorej je zásielka určená'
         },
         {
-            word: 'afázia',
-            description: 'Strata reči spôsobená poruchou rečového centra v mozgu'
+            word: 'afekt',
+            description: 'Prudké hnutie mysle za súčasnej straty kontroly vôle, rozčúlenie, vzplanutie hnevu, strachu'
         },
         {
             word: 'aforizmus',
             description: 'Stručný výrok obsahujúci vtipnú myšlienku'
         },
         {
-            word: 'afekt',
-            description: 'Prudké hnutie mysle za súčasnej straty kontroly vôle, rozčúlenie, vzplanutie hnevu, strachu'
+            word: 'afázia',
+            description: 'Strata reči spôsobená poruchou rečového centra v mozgu'
         },
         {
             word: 'afélium',
@@ -119,16 +121,6 @@ export function words() {
             word: 'agar',
             image: 'https://upload.wikimedia.org/wikipedia/commons/7/71/Agar-agar.jpg',
             description: 'Rôsolovitá hmota, vyrobená z morských chalúh, používaná v kuchárstve a ako živná pôda pre kultúry baktérií'
-        },
-        {
-            word: 'agát',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Robinia-pseudoacacia.JPG',
-            description: 'Vysoký strom alebo ker s bielymi voňavými kvetmi'
-        },
-        {
-            word: 'agáva',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/3/32/California_Cabbage_Agave.jpg',
-            description: 'Tropická rastlina s dužnatými listami, pestovaná pre okrasu alebo pre listy, ktoré poskytujú textilnú surovinu'
         },
         {
             word: 'agenda',
@@ -156,20 +148,12 @@ export function words() {
             description: 'Zhlukovanie, zoskupenie, nakopenie, nahromadenie obyvateľstva/priemyslu'
         },
         {
-            word: 'agónia',
-            description: 'Smrteľný zápas, smrteľná mdloba, skonávanie'
-        },
-        {
             word: 'agora',
             description: 'Zhromaždenie ľudu v starom Grécku'
         },
         {
             word: 'agrafia',
             description: 'Strata schopnosti písať po porušení mozgového centra'
-        },
-        {
-            word: 'agrárnik',
-            description: 'Bohatý roľník, statkár v buržoáznej ČSR'
         },
         {
             word: 'agregácia',
@@ -185,9 +169,22 @@ export function words() {
             description: 'Poľnohospodárstvo; obrábanie polí'
         },
         {
-            word: 'akácia',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Ngorongoro_Acacia_xanthophloea.jpg',
-            description: 'Tropický strom poskytujúci arabskú gumu'
+            word: 'agrárnik',
+            description: 'Bohatý roľník, statkár v buržoáznej ČSR'
+        },
+        {
+            word: 'agát',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Robinia-pseudoacacia.JPG',
+            description: 'Vysoký strom alebo ker s bielymi voňavými kvetmi'
+        },
+        {
+            word: 'agáva',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/32/California_Cabbage_Agave.jpg',
+            description: 'Tropická rastlina s dužnatými listami, pestovaná pre okrasu alebo pre listy, ktoré poskytujú textilnú surovinu'
+        },
+        {
+            word: 'agónia',
+            description: 'Smrteľný zápas, smrteľná mdloba, skonávanie'
         },
         {
             word: 'akadémia',
@@ -282,6 +279,27 @@ export function words() {
             description: 'Čin, úkon: správny, zákonodarný, pietný, pohlavný; dejstvo divadelnej hry'
         },
         {
+            word: 'aktivita',
+            description: 'Zvýšená, horlivá činnosť, čulosť. Opak pasivity'
+        },
+        {
+            word: 'aktivizmus',
+            description: 'Dlhoročná, cieľavedomá práca; činná účasť na verejnom a politickom živote'
+        },
+        {
+            word: 'aktivácia',
+            description: 'Povzbudenie k činnosti, uvedenie do chodu, napr. proces po kúpe SIM karty; úprava látok tak, aby boli schopné chemicky reagovať; premena neaktívneho prvku na rádioaktívny; čistenie odpadových vôd s využitím mikroorganizmov'
+        },
+        {
+            word: 'aktovka',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Briefcase.jpg',
+            description: 'Kapsa na knihy, spisy, napr. školská'
+        },
+        {
+            word: 'aktualizácia',
+            description: 'Použitie bežných výrazových prostriedkov novým spôsobom; privedenie verzie softvéru do novšieho, posledného stavu'
+        },
+        {
             word: 'aktínia',
             image: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Actinia_equina2.JPG',
             description: 'Malý morský živočích, sasanka morská'
@@ -292,29 +310,8 @@ export function words() {
             description: 'Rádioaktívny prvok nachádzajúci sa v uránových rudách; protónové číslo 89, je podľa neho pomenovaná skupina v 7. perióde periodickej tabuľky prvkov'
         },
         {
-            word: 'aktivácia',
-            description: 'Povzbudenie k činnosti, uvedenie do chodu, napr. proces po kúpe SIM karty; úprava látok tak, aby boli schopné chemicky reagovať; premena neaktívneho prvku na rádioaktívny; čistenie odpadových vôd s využitím mikroorganizmov'
-        },
-        {
-            word: 'aktivita',
-            description: 'Zvýšená, horlivá činnosť, čulosť. Opak pasivity'
-        },
-        {
-            word: 'aktivizmus',
-            description: 'Dlhoročná, cieľavedomá práca; činná účasť na verejnom a politickom živote'
-        },
-        {
             word: 'aktívum',
             description: 'Majetok bez dlhov; časť bilancie podniku, obsahujúca všetky druhy materiálnych hodnôt (peniaze, tovar) alebo pohľadávky; opak pasíva'
-        },
-        {
-            word: 'aktovka',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Briefcase.jpg',
-            description: 'Kapsa na knihy, spisy, napr. školská'
-        },
-        {
-            word: 'aktualizácia',
-            description: 'Použitie bežných výrazových prostriedkov novým spôsobom; privedenie verzie softvéru do novšieho, posledného stavu'
         },
         {
             word: 'akumulácia',
@@ -355,13 +352,18 @@ export function words() {
             description: 'Vodová farba'
         },
         {
+            word: 'akvizícia',
+            description: 'Získanie, nadobudnutie napr. zákazníkov, objednávok, vecí, majetku'
+        },
+        {
             word: 'akvárium',
             image: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Amaterske_akvarium.jpg',
             description: 'Umelá nádrž (často sklená nádoba) s vodou na pestovanie vodných živočíchov (najmä rýb) a rastlín'
         },
         {
-            word: 'akvizícia',
-            description: 'Získanie, nadobudnutie napr. zákazníkov, objednávok, vecí, majetku'
+            word: 'akácia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Ngorongoro_Acacia_xanthophloea.jpg',
+            description: 'Tropický strom poskytujúci arabskú gumu'
         },
         {
             word: 'alabaster',
@@ -384,11 +386,6 @@ export function words() {
             description: 'Druh veľkého morského vtáka'
         },
         {
-            word: 'albín',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Albinisitic_man_portrait.jpg',
-            description: 'Jedinec, ktorý nemá schopnosť tvoriť kožné farbivo (pigment)'
-        },
-        {
             word: 'album',
             image: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Family-album.jpg',
             description: 'Zbierka pamätných vecí (známok, pohľadníc, fotografií) v podobe knihy'
@@ -397,6 +394,11 @@ export function words() {
             word: 'albumín',
             image: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/ALB_structure.png',
             description: 'Bielkovina rozpustná vo vode; tvorí 55 – 65 % celkových plazmatických bielkovín; zabezpečuje, že plazma zostáva v cievach a neuniká do medzibunkového priestoru'
+        },
+        {
+            word: 'albín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Albinisitic_man_portrait.jpg',
+            description: 'Jedinec, ktorý nemá schopnosť tvoriť kožné farbivo (pigment)'
         },
         {
             word: 'alchemilka',
@@ -503,10 +505,6 @@ export function words() {
             description: 'Dusíkatá látka rastlinného pôvodu, zásaditého charakteru, napr. morfín, kofeín, nikotín, kokaín'
         },
         {
-            word: 'alkán',
-            description: 'Uhľovodík spojený výlučne jednoduchou kovalentnou väzbou, napr. metán, etán, propán, bután, ...'
-        },
-        {
             word: 'alkana',
             image: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Alkanna_tinctoria2.jpg',
             description: 'Rastlina rastúca pri Stredozemnom mori, z ktorej koreňa sa vyrába červené farbivo'
@@ -524,6 +522,10 @@ export function words() {
         {
             word: 'alkoholizmus',
             description: 'Nadmierne pitie liehovín, pijanstvo'
+        },
+        {
+            word: 'alkán',
+            description: 'Uhľovodík spojený výlučne jednoduchou kovalentnou väzbou, napr. metán, etán, propán, bután, ...'
         },
         {
             word: 'allegro',
@@ -566,17 +568,12 @@ export function words() {
             description: 'Hlboký ženský alebo chlapčenský hlas'
         },
         {
-            word: 'altánok',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Ko%C5%A1ice%2C_hudobn%C3%BD_alt%C3%A1nok_-_panoramio.jpg',
-            description: 'Malá otvorená alebo zasklená stavba so strechou, chrániaca pred dažďom a slnkom, rôzneho tvaru pôdorysu s jedným vstupným otvorom; záhradná besiedka, záhradný domček'
+            word: 'alternatíva',
+            description: 'Možnosť voľby medzi dvoma (vylučujúcimi sa) prípadmi; možnosť výberu'
         },
         {
             word: 'alternácia',
             description: 'Obmieňanie, striedanie, nahradzovanie, vymieňanie'
-        },
-        {
-            word: 'alternatíva',
-            description: 'Možnosť voľby medzi dvoma (vylučujúcimi sa) prípadmi; možnosť výberu'
         },
         {
             word: 'alternátor',
@@ -588,14 +585,19 @@ export function words() {
             description: 'Nezištná starostlivosť o blaho iných ľudí, nehľadiaca na osobné záujmy, opak egoizmu'
         },
         {
-            word: 'alúvium',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Amazon_alluvium_deposit_-_autazes.jpg',
-            description: 'Územie povodňových nánosov a usadenín s pôdnymi typmi, rastlinstvom, pod vplyvom poriečnej podzemnej vody'
+            word: 'altánok',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Ko%C5%A1ice%2C_hudobn%C3%BD_alt%C3%A1nok_-_panoramio.jpg',
+            description: 'Malá otvorená alebo zasklená stavba so strechou, chrániaca pred dažďom a slnkom, rôzneho tvaru pôdorysu s jedným vstupným otvorom; záhradná besiedka, záhradný domček'
         },
         {
             word: 'alveola',
             image: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Bronchial_anatomy.jpg',
             description: 'Guľovitý útvar v pľúcach, základná štruktúra a funkčná jednotka na výmenu plynov medzi organizmom a prostredím'
+        },
+        {
+            word: 'alúvium',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Amazon_alluvium_deposit_-_autazes.jpg',
+            description: 'Územie povodňových nánosov a usadenín s pôdnymi typmi, rastlinstvom, pod vplyvom poriečnej podzemnej vody'
         },
         {
             word: 'amalgám',
@@ -612,8 +614,8 @@ export function words() {
             description: 'Človek, ktorý zo záľuby, zábavy, (nie z povolania) niečo pestuje (napr. šport, umenie); opak profesionála'
         },
         {
-            word: 'ambícia',
-            description: 'Snaha vyniknúť, uplatniť sa, ušľachtilá ctižiadosť'
+            word: 'ambidextria',
+            description: 'Nevyvinuté alebo chýbajúce prednostné používanie jedného z párových orgánov tela, najmä ruky'
         },
         {
             word: 'ambit',
@@ -634,6 +636,43 @@ export function words() {
             word: 'ambulancia',
             image: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Ambulanceczech.JPG',
             description: 'Ordinácia (zubná, očná); lekárske oddelenie (obyčajne na klinike alebo v nemocnici) na poskytnutie prvej pomoci alebo na liečenie ľahších ochorení bez trvalého pobytu v nemocnici'
+        },
+        {
+            word: 'ambícia',
+            description: 'Snaha vyniknúť, uplatniť sa, ušľachtilá ctižiadosť'
+        },
+        {
+            word: 'amencia',
+            description: 'Chorobná strata pamäti, schopnosti orientovať sa; chorobná roztržitosť'
+        },
+        {
+            word: 'amerícium',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Americium_Metal_Chunks.jpg',
+            description: 'Silne rádioaktívny kovový chemický prvok striebrobielej farby, pripravovaný umelo v jadrových reaktoroch predovšetkým z plutónia, má protónové číslo 95'
+        },
+        {
+            word: 'ametyst',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Am%C3%A9thystre_sceptre2.jpg',
+            description: 'Priesvitný polodrahokam fialovej farby'
+        },
+        {
+            word: 'amfibólia',
+            description: 'Dvojznačnosť založená na možnosti dvojakého výkladu slova alebo spojenia slov, dvojzmyselnosť'
+        },
+        {
+            word: 'amfiteáter',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Amfite%C3%A1ter_1959.jpg',
+            description: 'Otvorené okrúhle divadlo so stupňovite vystupujúcim hľadiskom'
+        },
+        {
+            word: 'amfora',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Athena_Herakles_Staatliche_Antikensammlungen_2301_A_full.jpg',
+            description: 'Antická dvojuchá hlinená nádoba'
+        },
+        {
+            word: 'améba',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Amoeba_proteus_with_many_pseudopodia.jpg',
+            description: 'Meňavka, jednobunkový organizmus, najnižší prvok'
         }
     ]
 }
