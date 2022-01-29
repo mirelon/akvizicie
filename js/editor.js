@@ -43,16 +43,24 @@ function copy() {
 
 function render() {
     const jsonInput = document.getElementById('json')
-    jsonInput.value = JSON.stringify(json.sort((a, b) => {
+    const sortedJson = json.sort((a, b) => {
         if (a['word'] > b['word']) {
             return 1
         } else {
             return -1
         }
-    }), null, 2)
+    })
+    const jsonString = JSON.stringify(sortedJson, null, 2)
+    jsonInput.value = cleanQuotes(jsonString)
     jsonInput.scrollTop = jsonInput.scrollHeight
 }
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function cleanQuotes(jsonString) {
+    return jsonString.replace(/^[\t ]*"[^:\n\r]+(?<!\\)":/gm, function (match) {
+        return match.replace(/"/g, "");
+    }).replaceAll("\"", "'")
 }
