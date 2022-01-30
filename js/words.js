@@ -670,9 +670,49 @@ export function words() {
             description: 'Antická dvojuchá hlinená nádoba'
         },
         {
+            word: 'amid',
+            description: 'Zlúčenina získaná nahradením jedného atómu vodíka v amoniaku kovom'
+        },
+        {
+            word: 'aminokyselina',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Alpha-amino-acid-general-2D-stereo.png',
+            description: 'Organická zlúčenina, stavebná jednotka bielkovín, obsahuje aminoskupinu a karboxylovú skupinu'
+        },
+        {
+            word: 'amnestia',
+            description: 'Odpustenie trestu, udelenie milosti, omilostenie'
+        },
+        {
+            word: 'amnézia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Headscratcher.png',
+            description: 'Neschopnosť rozpamätať sa, chorobná zábudlivosť'
+        },
+        {
+            word: 'amok',
+            description: 'Chorobná intenzívna zúrivosť, objavujúca sa obyčajne po požití ópia'
+        },
+        {
+            word: 'amoniak',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Ammonia-2D.svg',
+            description: 'Čpavok; toxický, žieravý, bezfarebný plyn s charakteristickým prenikavým, ostrým, silne dráždivým zápachom'
+        },
+        {
+            word: 'amoralizmus',
+            description: 'Odmietanie akejkoľvek morálky, zriekanie sa mravnosti, snaha zdôrazniť neľudskosť, opovrhovanie svedomím a cťou'
+        },
+        {
+            word: 'amortizácia',
+            description: 'Pokles hodnoty opotrebením'
+        },
+        {
             word: 'améba',
             image: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Amoeba_proteus_with_many_pseudopodia.jpg',
             description: 'Meňavka, jednobunkový organizmus, najnižší prvok'
+        },
+        {
+            word: 'amín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Amine-2D-general.png',
+            description: 'Zlúčenina, v ktorej atómy vodíka v amoniaku sú nahradené uhľovodíkovými zvyškami'
         }
     ]
 }
