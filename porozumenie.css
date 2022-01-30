@@ -1,0 +1,25 @@
+#input {
+    height: 20%;
+    font-size: 500%;
+}
+
+#answers {
+    height: 70%;
+}
+
+#answers td {
+    width: 19%;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#answers td:hover {
+    border: 1px solid black;
+}
+
+#answers td img {
+    width: 90%;
+    max-height: 400px;
+}

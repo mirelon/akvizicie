@@ -41,7 +41,7 @@ function process(item) {
             }
         }
     } else {
-        document.getElementById('input').innerHTML = 'HOTOVO'
+        document.getElementById('input').innerHTML = `Hotovo, pokračujte na <a href="porozumenie.html">porozumenie</a>`
         document.getElementById('answer').value = ''
         document.getElementById('answer').oninput = () => {}
         document.onkeydown = () => {}

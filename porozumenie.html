@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Produkcia | Dotazník na vek akvizície</title>
+    <title>Porozumenie | Dotazník na vek akvizície</title>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="produkcia.css"/>
+    <link rel="stylesheet" href="porozumenie.css"/>
     <script src="js/jquery.min.js"></script>
-    <script type="module" src="js/produkcia.js"></script>
+    <script type="module" src="js/porozumenie.js"></script>
 </head>
 <body>
-<h1>Produkcia | Dotazník na vek akvizície</h1>
+<h1>Porozumenie | Dotazník na vek akvizície</h1>
 <form>
     <fieldset>
         <legend>Vek:</legend>
@@ -17,9 +17,12 @@
         Mesiace: <input type="number" min="0" max="11"/>
     </fieldset>
 </form>
-<div id="input"></div>
-<input id="answer"/>
-<br/>
-Stačí? Prejsť na porozumenie <a href="porozumenie.html">tu</a>
+<table>
+    <tr>
+        <td id="input"></td>
+    </tr>
+    <tr id="answers">
+    </tr>
+</table>
 </body>
 </html>
