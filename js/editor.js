@@ -15,14 +15,11 @@ function add() {
     if (word.length > 0 && description.length > 0) {
         if (image.length > 0) {
             json.push({
-                'word': word,
-                'image': image,
-                'description': description
+                'word': word, 'image': image, 'description': description
             })
         } else {
             json.push({
-                'word': word,
-                'description': description
+                'word': word, 'description': description
             })
         }
         document.getElementById('word').value = ''
@@ -51,7 +48,7 @@ function render() {
         }
     })
     const jsonString = JSON.stringify(sortedJson, null, 2)
-    jsonInput.value = cleanQuotes(jsonString)
+    jsonInput.value = `export function words() { return ${cleanQuotes(jsonString)} }`
     jsonInput.scrollTop = jsonInput.scrollHeight
 }
 
