@@ -1,4 +1,5 @@
 import {words} from './words.js'
+import {speak, domAndSpeechLoaded} from './speak.js'
 
 const answersCount = 5
 
@@ -8,7 +9,7 @@ let ibaPorozumenie = []
 
 let questionedItem = null
 
-$(function () {
+domAndSpeechLoaded(() => {
     load()
     saveAndNext()
 })
@@ -23,6 +24,7 @@ function process(items) {
     if (items.length === answersCount) {
         questionedItem = items[Math.floor(Math.random() * answersCount)]
         renderInput(questionedItem)
+        speak(questionedItem.word)
         renderAnswers(items)
         for (let el of document.getElementsByClassName('answer')) {
             el.addEventListener('click', () => {

@@ -1,14 +1,13 @@
-import { words } from './words.js'
+import {words} from './words.js'
+import {speak, domAndSpeechLoaded} from './speak.js'
 
 let available = []
 let wrong = []
 let correct = []
 
-$(function(){
-    if (document.getElementById('input')) {
-        load()
-        saveAndNext()
-    }
+domAndSpeechLoaded(() => {
+    load()
+    saveAndNext()
 })
 
 function saveAndNext() {
@@ -18,15 +17,19 @@ function saveAndNext() {
 }
 
 function process(item) {
-    if (item)
-    {
+    if (item) {
         document.getElementById('input').innerHTML = render(item)
+        document.getElementById('input').onclick = () => {
+            speak(item.description)
+        }
+        speak(item.description)
         document.getElementById('answer').value = ''
         document.getElementById('answer').focus()
         document.getElementById('answer').oninput = (e) => {
             console.log(`${e.target.value}`)
             if (check(e.target.value, item.word)) {
                 console.log('correct')
+                speechSynthesis.cancel()
                 correct.push(item)
                 available = available.filter(x => x.word !== item.word)
                 saveAndNext()
@@ -35,6 +38,7 @@ function process(item) {
         document.onkeydown = (e) => {
             if (["Escape", "Esc", "Enter"].includes(e.key)) {
                 console.log(`${e.key} pressed, giving up`)
+                speechSynthesis.cancel()
                 wrong.push(item)
                 available = available.filter(x => x.word !== item.word)
                 saveAndNext()
@@ -43,8 +47,10 @@ function process(item) {
     } else {
         document.getElementById('input').innerHTML = `Hotovo, pokračujte na <a href="porozumenie.html">porozumenie</a>`
         document.getElementById('answer').value = ''
-        document.getElementById('answer').oninput = () => {}
-        document.onkeydown = () => {}
+        document.getElementById('answer').oninput = () => {
+        }
+        document.onkeydown = () => {
+        }
     }
 }
 
@@ -58,7 +64,7 @@ function render(item) {
 
 function randomAvailable() {
     if (available.length > 1)
-        return available[Math.floor(Math.random()*available.length)]
+        return available[Math.floor(Math.random() * available.length)]
     else if (available.length === 1)
         return available[0]
     else
