@@ -2,3 +2,8 @@ img {
     max-width: 400px;
     max-height: 400px;
 }
+
+#footer {
+    position: absolute;
+    bottom: 0;
+}
