@@ -29,6 +29,7 @@ export function domAndSpeechLoaded(f) {
 
     function checkInit() {
         if (initialized.dom && initialized.speech) {
+            speechSynthesis.cancel()
             f()
         }
     }
