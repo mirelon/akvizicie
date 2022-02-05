@@ -1,11 +1,13 @@
 import {words} from './words.js'
 import {speak, domAndSpeechLoaded} from './speak.js'
+import {bindDatumNarodenia} from './datum_narodenia.js'
 
 let available = []
 let wrong = []
 let correct = []
 
 domAndSpeechLoaded(() => {
+    bindDatumNarodenia()
     load()
     saveAndNext()
 })

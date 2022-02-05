@@ -1,5 +1,6 @@
 import {words} from './words.js'
 import {speak, domAndSpeechLoaded} from './speak.js'
+import {bindDatumNarodenia} from './datum_narodenia.js'
 
 const answersCount = 5
 
@@ -10,6 +11,7 @@ let ibaPorozumenie = []
 let questionedItem = null
 
 domAndSpeechLoaded(() => {
+    bindDatumNarodenia()
     load()
     saveAndNext()
 })
