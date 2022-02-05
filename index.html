@@ -5,6 +5,7 @@
     <title>Dotazník na vek akvizície</title>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="js/jquery.min.js"></script>
+    <script type="module" src="js/index.js"></script>
 </head>
 <body>
 <h1>Dotazník na vek akvizície</h1>
@@ -42,5 +43,8 @@ Cieľ dotazníka je pre každé slovenské slovo zistiť distribúciu veku akviz
 <p>Áno, <a href="http://wordbank.stanford.edu/analyses?name=item_trajectories" target="_blank">Wordbank</a>.
     Ale pre slovenčinu sú tam dáta len pre 609 slov, pre deti vo veku medzi 17 a 36 mesiacov, a iba produkcia.
     Zato sú tam aj slová iné ako podstatné mená.</p>
+<h4>Aké dáta sa ukladajú?</h4>
+<p>Pre každú odpoveď sa ukladá: slovo, správnosť odpovede, aktuálny čas a vek v dňoch. Počet aktuálne uložených odpovedí: <span id="localStorageSize">?</span>. Zmazať všetky lokálne dáta <a
+        id="zmazat_data" href="#">tu</a></p>
 </body>
 </html>
