@@ -1,21 +1,22 @@
 import {words} from './words.js'
-import {speak, domAndSpeechLoaded} from './speak.js'
+import {domAndSpeechLoaded, speak} from './speak.js'
 import {bindDatumNarodenia} from './datum_narodenia.js'
-
-let available = []
-let wrong = []
-let correct = []
+import {load, save, wordsForPorozumenie} from './storage.js'
 
 domAndSpeechLoaded(() => {
     bindDatumNarodenia()
-    load()
-    saveAndNext()
+    next()
 })
 
-function saveAndNext() {
-    save()
-    const item = randomAvailable()
-    process(item)
+function next() {
+    updatePocetSlovPorozumenie()
+    randomAvailable().then(item => process(item))
+}
+
+function updatePocetSlovPorozumenie() {
+    wordsForPorozumenie().then(words =>
+        document.getElementById('pocet_slov_porozumenie').innerText = words.length.toString()
+    )
 }
 
 function process(item) {
@@ -32,22 +33,20 @@ function process(item) {
             if (check(e.target.value, item.word)) {
                 console.log('correct')
                 speechSynthesis.cancel()
-                correct.push(item)
-                available = available.filter(x => x.word !== item.word)
-                saveAndNext()
+                save(item.word, true, 'produkcia')
+                next()
             }
         }
         document.onkeydown = (e) => {
             if (["Escape", "Esc", "Enter"].includes(e.key)) {
                 console.log(`${e.key} pressed, giving up`)
                 speechSynthesis.cancel()
-                wrong.push(item)
-                available = available.filter(x => x.word !== item.word)
-                saveAndNext()
+                save(item.word, false, 'produkcia')
+                next()
             }
         }
     } else {
-        document.getElementById('input').innerHTML = `Hotovo, pokračujte na <a href="porozumenie.html">porozumenie</a>`
+        document.getElementById('input').innerHTML = `Hotovo, pokračujte na <a href="/porozumenie.html">porozumenie</a>`
         document.getElementById('answer').value = ''
         document.getElementById('answer').oninput = () => {
         }
@@ -64,28 +63,16 @@ function render(item) {
     }
 }
 
-function randomAvailable() {
+async function randomAvailable() {
+    const answeredWords = await load('produkcia')
+    const available = words().filter(item => !answeredWords.has(item.word))
+    console.log(`Available words size: ${available.length}`)
     if (available.length > 1)
         return available[Math.floor(Math.random() * available.length)]
     else if (available.length === 1)
         return available[0]
     else
         return null
-}
-
-function load() {
-    const all = words()
-    const correctWords = localStorage.getItem("correct")?.split(",") ?? []
-    correct = all.filter(item => correctWords.includes(item.word))
-    const wrongWords = localStorage.getItem("wrong")?.split(",") ?? []
-    wrong = all.filter(item => wrongWords.includes(item.word))
-    available = all.filter(item => !correctWords.includes(item.word) && !wrongWords.includes(item.word))
-    console.log(`Loaded ${correct.length} correct, ${wrong.length} wrong, ${available.length} available`)
-}
-
-function save() {
-    localStorage.setItem("correct", correct.map(item => item.word).join(","))
-    localStorage.setItem("wrong", wrong.map(item => item.word).join(","))
 }
 
 function check(actual, expected) {

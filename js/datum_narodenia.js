@@ -1,6 +1,6 @@
 export function bindDatumNarodenia() {
     document.getElementById("datum_narodenia").onblur = (e) => {
-        check(e.target)
+        saveFromElement(e.target)
     }
     const datumNarodenia = localStorage.getItem(datumNarodeniaKey)
     if (datumNarodenia) {
@@ -9,21 +9,28 @@ export function bindDatumNarodenia() {
     }
 }
 
+export function age() {
+    return Math.floor((Date.now() - parse(localStorage.datumNarodenia)) / 86400000)
+}
+
 const datumNarodeniaKey = 'datumNarodenia'
 
-function check(el) {
+function saveFromElement(el) {
     const dateString = el.value
-    console.log(`Input contains: ${dateString}`)
-    const parts = dateString.split('.')
-    if (parts.length !== 3) {
-        return showError(el, `Potrebné zadať deň, mesiac a rok, oddelené bodkou`)
-    }
-    if (Date.parse(parts.reverse().join('-'))) {
+    if (parse(dateString)) {
         console.log(`Saving to localStorage: ${dateString}`)
         localStorage.setItem(datumNarodeniaKey, dateString)
     }
 }
 
-function showError(el, msg) {
+function parse(string) {
+    const parts = string.split('.')
+    if (parts.length !== 3) {
+        return showError(`Potrebné zadať deň, mesiac a rok, oddelené bodkou`)
+    }
+    return Date.parse(parts.reverse().join('-'))
+}
+
+function showError(msg) {
     console.error(msg)
 }
