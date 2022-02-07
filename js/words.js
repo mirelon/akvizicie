@@ -145,7 +145,7 @@ export function words() {
         },
         {
             word: 'aglomerácia',
-            description: 'Zhlukovanie, zoskupenie, nakopenie, nahromadenie obyvateľstva/priemyslu'
+            description: 'Zhlukovanie, zoskupenie, nakopenie, nahromadenie obyvateľstva/priemyslu; mesto so svojim okolím, predmestiami, alebo niekoľko miest spojených do jednej súvislej zastavanej plochy'
         },
         {
             word: 'agora',
@@ -315,7 +315,7 @@ export function words() {
         },
         {
             word: 'akumulácia',
-            description: 'Nakopenie, hromadenie, nahromadenie, '
+            description: 'Nakopenie, hromadenie, nahromadenie, vo veľkom množstve'
         },
         {
             word: 'akumulátor',
@@ -713,6 +713,308 @@ export function words() {
             word: 'amín',
             image: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Amine-2D-general.png',
             description: 'Zlúčenina, v ktorej atómy vodíka v amoniaku sú nahradené uhľovodíkovými zvyškami'
+        },
+        {
+            word: 'anafora',
+            description: 'Opakovanie tých istých slov na začiatku veršov'
+        },
+        {
+            word: 'anagram',
+            description: 'Slovná hra, pri ktorej vznikajú nové slová premiestnením hlások v daných slovách, prešmyčka'
+        },
+        {
+            word: 'anakonda',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Eunectes_murinus.jpg',
+            description: 'Najťažší had na svete, obývajúci Južnú Ameriku, dokáže zaškrtiť zviera veľkosti koňa'
+        },
+        {
+            word: 'analfabet',
+            description: 'Človek, ktorý nevie písať ani čítať; negramotný človek'
+        },
+        {
+            word: 'analgetikum',
+            description: 'Liek na utíšenie bolesti'
+        },
+        {
+            word: 'analógia',
+            description: 'Skutočnosť, že medzi dvoma alebo viacerými objektmi existuje rovnakosť určitých znakov (vlastností, štruktúr, funkcií), ale zároveň rôznosť iných znakov'
+        },
+        {
+            word: 'analýza',
+            description: 'Metóda práce používajúca rozbor a rozkladanie, rozčlenenie predmetu alebo javu na jeho jednotlivé jednoduché časti'
+        },
+        {
+            word: 'anamnéza',
+            description: 'Vyšetrenie pacientovho života pred chorobou pre zistenie príčiny choroby'
+        },
+        {
+            word: 'ananás',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Ananas~May_2008-1.jpg',
+            description: 'Tropické ovocie s veľkými, oválnymi, aromatickými, šťavnatými plodmi s drsnou, hrubou kôrou'
+        },
+        {
+            word: 'anarchia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Anarchy-symbol.svg',
+            description: 'Neprítomnosť organizovanej vlády, bezvládie; neporiadok, chaos, zmätok'
+        },
+        {
+            word: 'anatómia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Anatomical_Male_Figure_Showing_Heart%2C_Lungs%2C_and_Main_Arteries.jpg',
+            description: 'Náuka o zložení ľudského, živočíšneho alebo rastlinného tela'
+        },
+        {
+            word: 'anciáš',
+            description: 'Čert, diabol, írečito'
+        },
+        {
+            word: 'andante',
+            description: 'Mierne, voľne, pomaly; časť hudobnej skladby v tomto tempe'
+        },
+        {
+            word: 'andezit',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Amygdaloidal_andesite.jpg',
+            description: 'Hornina sopečného pôvodu, používaná ako stavebný kameň'
+        },
+        {
+            word: 'anekdota',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Cartoon_-_Bishop%27s_Breakfast_Table.jpg',
+            description: 'Krátky a vtipný príbeh, zakončený humoristickou alebo satirickou pointou'
+        },
+        {
+            word: 'anestetikum',
+            description: 'Prostriedok, liek na znecitlivenie, napríklad chloroform, éter'
+        },
+        {
+            word: 'anestéza',
+            synonyms: [
+                'anestézia'
+            ],
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Preoxygenation_before_anesthetic_induction.jpg',
+            description: 'Stav celkovej alebo miestnej necitlivosti na podnety, napríklad bolesť, dotyk, teplo, chlad, spôsobený aplikáciou liekov alebo fyzikálne (napríklad chladom), s cieľom umožniť bezbolestné vykonanie chirurgického alebo iného bolestivého výkonu'
+        },
+        {
+            word: 'anexia',
+            description: 'Pripojenie, pričlenenie, zabranie cudzieho územia'
+        },
+        {
+            word: 'angažmán',
+            description: 'Zmluva uzavretá s umelcom na určitý čas'
+        },
+        {
+            word: 'angora',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/EnglishAngoraRabbit.jpg',
+            description: 'Druh zajaca, ktorý sa pestuje na hodvábnu mäkkú vlnu'
+        },
+        {
+            word: 'angström',
+            description: 'Stará dĺžková miera na meranie dĺžky svetelnej vlny'
+        },
+        {
+            word: 'angína',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e3/Tonsilitis.jpg',
+            description: 'Zápal mandlí, pri ktorom vzniká hnisavé ložisko'
+        },
+        {
+            word: 'anhydrit',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Anhydrite_HMNH1.jpg',
+            description: 'Minerál kryštalizujúci v rombickej sústave, chemicky síran vápenatý'
+        },
+        {
+            word: 'anilín',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Structural_formula_of_aniline.svg',
+            description: 'Olejnatá jedovatá tekutina. Najjednoduchší aromatický amín, aminoskupina je priamo viazaná na benzén. Používa sa hlavne na výrobu farieb'
+        },
+        {
+            word: 'animato',
+            description: 'Oduševnene, spôsob prednesu hudobných skladieb'
+        },
+        {
+            word: 'animizmus',
+            description: 'Mystická predstava primitívnych ľudí, podľa ktorej každá vec má ducha, dušu; oživovanie a zosobňovanie prírodných síl a javov'
+        },
+        {
+            word: 'anión',
+            description: 'Záporne nabitý ión'
+        },
+        {
+            word: 'anjel',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Praying_angel_by_Gis%C3%A8le.png',
+            description: 'Nadprirodzená bytosť, zobrazovaná ako krásna okrídlená postava; verný strážca, ochranca, sprievodca'
+        },
+        {
+            word: 'anketa',
+            description: 'Hromadné zisťovanie mienky určitého okruhu ľudí; dotazník, prieskum'
+        },
+        {
+            word: 'anomália',
+            description: 'Nepravidelnosť, výnimočnosť, odchýlka; rozdiel medzi normálnou hodnotou určitej veličiny a hodnotou skutočne nameranou'
+        },
+        {
+            word: 'anonym',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Anonymous_emblem.svg',
+            description: 'Nepodpísaný, svoje meno zatajujúci autor; neznámy tvorca diela'
+        },
+        {
+            word: 'anorexia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Louis_Bataille%2C_%27Deux_cas_d%27anorexie_hysterique%27_Wellcome_L0020548_%28backcropped%29.jpg',
+            description: 'Duševná choroba spočívajúca v odmietaní potravy a skreslenej predstave o svojom tele'
+        },
+        {
+            word: 'anotácia',
+            description: 'Krátka charakteristika, stručný opis informačného zdroja nasledujúci bibliografickú citáciu; kritické alebo subjektívne hodnotenie diela zvyčajne zahrnuté v bibliografii alebo citácii'
+        },
+        {
+            word: 'antagonista',
+            description: 'Protivník, zarytý odporca, opak protagonistu'
+        },
+        {
+            word: 'antibiotikum',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Doxycycline_100mg_capsules.jpg',
+            description: 'Látka umŕtvujúca baktérie a vírusy, napríklad penicilín'
+        },
+        {
+            word: 'anticipácia',
+            description: 'Predčasný výskyt javu; predvídanie, predstihovanie udalostí'
+        },
+        {
+            word: 'anticyklóna',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Subtropicalridge2000091412.jpg',
+            description: 'Oblasť vysokého tlaku vzduchu'
+        },
+        {
+            word: 'antifóna',
+            description: 'Striedavý spev kňaza a zboru pri bohoslužbe; krátka pieseň spievaná pred žalmom'
+        },
+        {
+            word: 'antigén',
+            description: 'Látka schopná vyrobiť protilátky pri nákazlivých chorobách; používa sa na očkovanie'
+        },
+        {
+            word: 'antika',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Human_headed_winged_bull_facing.jpg',
+            description: 'Starobylý umelecký predmet, starožitnosť; staroveká socha'
+        },
+        {
+            word: 'antikoncepcia',
+            description: 'Ochrana pred nežiaducim tehotenstvom'
+        },
+        {
+            word: 'antikoro',
+            synonyms: [
+                'antikor'
+            ],
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Aluminized_Steel.jpg',
+            description: 'Nehrdzavejúca oceľ'
+        },
+        {
+            word: 'antikvariát',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Antiquariat_saint_pierre_de_clages_valais.JPG',
+            description: 'Obchod so starožitnosťami, najmä so starými knihami'
+        },
+        {
+            word: 'antilopa',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Springbok_Namibia.jpg',
+            description: 'Párnokopytník z čeľade turovité, so skrútenými rohmi, žijúci prevažne v Afrike'
+        },
+        {
+            word: 'antimón',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg',
+            description: 'Chemický prvok, má značku Sb a protónové číslo 51. Je to polokov, používa sa na výrobu diód a tranzistorov'
+        },
+        {
+            word: 'antipasát',
+            description: 'Tropický vietor, ktorý veje z tropického do subtropického pásma, vo výške niekoľko tisícov metrov nad morom'
+        },
+        {
+            word: 'antipatia',
+            description: 'Nechuť, odpor k ľuďom alebo veciam, opak sympatie'
+        },
+        {
+            word: 'antiseptikum',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/ExAntiseptic.jpg',
+            description: 'Látka ničiaca choroboplodné mikroorganizmy v prostredí živých tkanív, na ranách, slizniciach a na koži. Toxicita pre makroorganizmus je nižšia ako pri aplikovaní dezinficiencie'
+        },
+        {
+            word: 'antitalent',
+            description: 'Človek bez schopností, bez nadania pre niektorý odbor práce, činnosti, vedy'
+        },
+        {
+            word: 'antitéza',
+            description: 'Prirovnanie protikladom; v Heglovej idealistickej dialektike druhý z troch stupňov triády'
+        },
+        {
+            word: 'antivírus',
+            description: 'Software, ktorého cieľom je identifikovať a eliminovať vírusy'
+        },
+        {
+            word: 'antológia',
+            description: 'Výber literárnych diel alebo hudobných diel viacerých autorov osvetľujúcich určitú tému alebo epochu alebo typ tvorby'
+        },
+        {
+            word: 'antonymum',
+            synonyms: [
+                'antonym'
+            ],
+            description: 'Slovo opačného významu'
+        },
+        {
+            word: 'antracit',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Coal_anthracite.jpg',
+            description: 'Najvýhrevnejšie čierne uhlie, ktoré bolo vystavené veľkému tlaku a teplu'
+        },
+        {
+            word: 'antracén',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Anthracene_molecule_ball.png',
+            description: 'Tuhý uhľovodík vyrábaný z kamenouhoľného dechtu, je toxický, je produktom nedokonalého spalovania uhlia a ropy, vyskytuje se aj v cigaretovom dyme'
+        },
+        {
+            word: 'antrax',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Anthrax_PHIL_2033.png',
+            description: 'Sneť slezinná, nákazlivá choroba zvierat, prenosná na človeka, kožná forma ochorenia sa väčšinou prejavuje čiernymi rankami na koži'
+        },
+        {
+            word: 'antropocentrizmus',
+            description: 'Názor, podľa ktorého človek je centrom všetkého diania a že svet bol stvorený pre človeka'
+        },
+        {
+            word: 'antropomorfizmus',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Down_the_Rabbit_Hole.png',
+            description: 'Prenášanie ľudských vlastností a osobitostí na vonkajšie prírodné sily alebo mýtické bytosti'
+        },
+        {
+            word: 'anténa',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Antena_de_televisi%C3%B3n_digital_abierta.JPG',
+            description: 'Sústava drôtov na vysielanie alebo prijímanie elektromagnetických vĺn'
+        },
+        {
+            word: 'anulácia',
+            synonyms: [
+                'anulovanie'
+            ],
+            description: 'Zrušenie, vyhlásenie neplatnosti; prevedenie rovnice na taký tvar, kde na jednej strane je nula'
+        },
+        {
+            word: 'anémia',
+            description: 'Nedostatok červených krviniek a krvného farbiva, chudokrvnosť'
+        },
+        {
+            word: 'aníz',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Koehler1887-PimpinellaAnisum.jpg',
+            description: 'Korenina príbuzná rasci alebo feniklu, pripomína pelendrek. Výborný prostriedok na odkašliavanie.'
+        },
+        {
+            word: 'anóda',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Zinc_anode_2.svg',
+            description: 'Elektróda odvádzajúca z priestoru záporné častice elektrického náboja'
+        },
+        {
+            word: 'anúria',
+            description: 'Zastavenie vylučovania moču'
+        },
+        {
+            word: 'aorta',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Aorta_scheme.jpg',
+            description: 'Hlavná a najväčšia tepna, vystupujúca z ľavej srdcovej komory, srdcovnica'
         }
     ]
 }
