@@ -19,7 +19,7 @@ export function domAndSpeechLoaded(f) {
         console.log('DOM loaded')
         initialized.dom = true
         checkInit()
-    });
+    })
 
     speechSynthesis.addEventListener("voiceschanged", () => {
         console.log('Speech loaded')

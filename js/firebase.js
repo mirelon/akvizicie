@@ -71,3 +71,12 @@ export async function retrieveIncorrect(userId, measure) {
     )
     return await getDocs(q)
 }
+
+export async function stats(word, measure) {
+    const q = query(
+        collection(db, 'answers'),
+        where('word', '==', word),
+        where('measure', '==', measure)
+    )
+    return await getDocs(q)
+}
