@@ -64,7 +64,7 @@ export function words() {
         {
             word: 'achát',
             image: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Agate_banded_750pix.jpg',
-            description: 'Druh polodrahokamu'
+            description: 'Druh polodrahokamu, odroda chalcedónu'
         },
         {
             word: 'acylpyrín',
@@ -1015,6 +1015,98 @@ export function words() {
             word: 'aorta',
             image: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Aorta_scheme.jpg',
             description: 'Hlavná a najväčšia tepna, vystupujúca z ľavej srdcovej komory, srdcovnica'
+        },
+        {
+            word: 'aparatúra',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Sound_System.jpg',
+            description: 'Sústava prístrojov: elektrická, zvuková'
+        },
+        {
+            word: 'apartmán',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/AIMCO_apartment_interior.jpg',
+            description: 'Izba v hoteli so všetkým príslušenstvom'
+        },
+        {
+            word: 'aparát',
+            description: 'Prístroj: fotografický, telefonický; súhrn metodologických, odborných i materiálových vedomostí ako výzbroj pri vedeckej práci; orgán, alebo orgány vykonávajúce nejakú osobitnú funkciu organizmu: hlasový, slzný'
+        },
+        {
+            word: 'apatia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Degas_-_R%C3%B6mische_Bettlerin.jpg',
+            description: 'Nechuť reagovať na dojmy z prostredia, otupelosť, ľahostajnosť'
+        },
+        {
+            word: 'apatit',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Apatite_Canada.jpg',
+            description: 'Skupina minerálov, najrozšírenejší fosfát v zemskej kôre, je na piatom mieste v Mohsovej stupnici tvrdosti'
+        },
+        {
+            word: 'apel',
+            description: 'Výzva, odvolanie sa na niečo, na rozvahu, kolegialitu'
+        },
+        {
+            word: 'apendix',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/3D_still_showing_appendicitis.jpg',
+            description: 'Červovitý výbežok slepého čreva; dodatok v knihe'
+        },
+        {
+            word: 'aperitív',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/69/Porto-Sandeman-24-Portweinglaeser-2011-gje.jpg',
+            description: 'Alkoholický nápoj, ktorý sa pije pred jedlom na povzbudenie chuti'
+        },
+        {
+            word: 'apetít',
+            description: 'Chuť do jedla'
+        },
+        {
+            word: 'aplauz',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Arabic_arts_festival_applause.jpg',
+            description: 'Potlesk, ovácia'
+        },
+        {
+            word: 'aplikácia',
+            description: 'Použitie, uplatnenie teoretických poznatkov v praxi; použitie lieku, spôsobu liečenia; software pomáhajúci používateľovi pri uskutočňovaní činnosti určitého konkrétneho typu'
+        },
+        {
+            word: 'apokalypsa',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Apocalypse-Albert_Goodwin.jpg',
+            description: 'Hrôzostrašné, desivé zjavenie, katastrofa s veľmi ničivými následkami; jedna z kníh Nového zákona, obsahujúca mystické proroctvá o konci sveta'
+        },
+        {
+            word: 'aport',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/Spaniel_Fetching.jpg',
+            description: 'Zavolanie na psa, aby priniesol nejakú vec'
+        },
+        {
+            word: 'apoštol',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Bartolomeo_Montagna_-_Saint_Paul_-_Google_Art_Project.jpg',
+            description: 'Hlásateľ kresťanskej viery, vierozvest; jeden z dvanástich Kristových učeníkov'
+        },
+        {
+            word: 'apraxia',
+            description: 'Neschopnosť vykonávať rukami účelný pohyb'
+        },
+        {
+            word: 'apretúra',
+            description: 'Konečná úprava výrobku, napríklad kože, papiera, textílií'
+        },
+        {
+            word: 'aprobácia',
+            description: 'Oprávnenie vyučovať na istom stupni škôl, získané zložením predpísaných skúšok'
+        },
+        {
+            word: 'aproximácia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Mplwp_factorial_gamma_stirling.svg',
+            description: 'Približné vyjadrenie, znázornenie niečoho, čo nie je presné, ale je to stále dosť blízko na to, aby to bolo použiteľné'
+        },
+        {
+            word: 'apríl',
+            description: 'Štvrtý mesiac v roku'
+        },
+        {
+            word: 'apsida',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Stappoclasseaps.jpg',
+            description: 'Polkruhový výklenok v prednej časti lode kresťanských chrámov, kde je umiestený oltár'
         }
     ]
 }
