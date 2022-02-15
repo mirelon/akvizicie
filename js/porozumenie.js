@@ -30,8 +30,7 @@ function process(items) {
         document.onkeydown = (e) => {
             if (["Escape", "Esc", "Enter"].includes(e.key)) {
                 console.log(`${e.key} pressed, giving up`)
-                save(questionedItem.word, false, 'porozumenie')
-                next()
+                save(questionedItem.word, false, 'porozumenie').then(next)
             }
         }
     } else {
@@ -58,12 +57,11 @@ function renderAnswer(item) {
 function answerClicked(word) {
     if (questionedItem.word === word) {
         console.info(`Clicked correct: ${word}`)
-        save(questionedItem.word, true, 'porozumenie')
+        save(questionedItem.word, true, 'porozumenie').then(next)
     } else {
         console.info(`Clicked incorrect: ${word}. Expected: ${questionedItem.word}`)
-        save(questionedItem.word, false, 'porozumenie')
+        save(questionedItem.word, false, 'porozumenie').then(next)
     }
-    next()
 }
 
 async function randomWrong(count) {

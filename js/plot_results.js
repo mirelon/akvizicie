@@ -1,5 +1,5 @@
 import "https://cdn.plot.ly/plotly-2.9.0.min.js"
-import {stats} from "./firebase.js"
+import {wordStats} from "./firebase.js"
 import {calculateAgeOfAcquisition, logistic} from "./logistic.js";
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -19,7 +19,7 @@ function bindButtons() {
 function buttonClicked(measure) {
     const word = document.getElementById('word').value
     console.log(`Button clicked: ${measure}, getting data for ${word}`)
-    stats(word, measure).then(answers => {
+    wordStats(word, measure).then(answers => {
         const data = answers.docs.map(answer => {
                 return {
                     age: answer.data().age,

@@ -33,16 +33,14 @@ function process(item) {
             if (check(e.target.value, item.word)) {
                 console.log('correct')
                 speechSynthesis.cancel()
-                save(item.word, true, 'produkcia')
-                next()
+                save(item.word, true, 'produkcia').then(next)
             }
         }
         document.onkeydown = (e) => {
             if (["Escape", "Esc", "Enter"].includes(e.key)) {
                 console.log(`${e.key} pressed, giving up`)
                 speechSynthesis.cancel()
-                save(item.word, false, 'produkcia')
-                next()
+                save(item.word, false, 'produkcia').then(next)
             }
         }
     } else {
