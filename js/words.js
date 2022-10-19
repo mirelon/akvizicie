@@ -1107,6 +1107,69 @@ export function words() {
             word: 'apsida',
             image: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Stappoclasseaps.jpg',
             description: 'Polkruhový výklenok v prednej časti lode kresťanských chrámov, kde je umiestený oltár'
+        },
+        {
+            word: 'ara',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/1280px-Ara_ararauna_Luc_Viatour.jpg',
+            description: 'Veľký pestro sfarbený papagáj žijúci v severnej časti Južnej Ameriky'
+        },
+        {
+            word: 'arachnofóbia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Little_Miss_Muffet_2_-_WW_Denslow_-_Project_Gutenberg_etext_18546.jpg',
+            description: 'Iracionálny strach z pavúkov'
+        },
+        {
+            word: 'arašid',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Peanuts_%28Arachis_hypogaea%29_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_peeled.jpg/1280px-Peanuts_%28Arachis_hypogaea%29_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_peeled.jpg',
+            description: 'Podzemnica olejná / burský orech'
+        },
+        {
+            word: 'arbitráž',
+            description: 'Ekonomická operácia zahŕňajúca súčasne nákup i predaj aktív (napr. komodity alebo meny) na dvoch alebo na viacerých trhoch, vyznačujúca sa cenovými rozdielmi alebo inými nezrovnalosťami'
+        },
+        {
+            word: 'arborétum',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/7/76/Arboretum.westonbirt.750pix.jpg',
+            description: 'Špeciálna botanická záhrada, ktorá obsahuje dreviny (stromy a kríky) pre študijné a výskumné účely'
+        },
+        {
+            word: 'archa',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Edward_Hicks%2C_American_-_Noah%27s_Ark_-_Google_Art_Project.jpg/1024px-Edward_Hicks%2C_American_-_Noah%27s_Ark_-_Google_Art_Project.jpg',
+            description: 'Plavidlo, ktoré podľa biblickej knihy Genezis na Boží príkaz postavil Noe, aby s ďalšími 7 ľuďmi a všetkými živočíšnymi druhmi prežil potopu'
+        },
+        {
+            word: 'archaizmus',
+            description: 'Jazykový prostriedok používaný na vyvolanie dojmu starobylosti'
+        },
+        {
+            word: 'archanjel',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/GuidoReni_MichaelDefeatsSatan.jpg/800px-GuidoReni_MichaelDefeatsSatan.jpg',
+            description: 'Anjel vyššieho stupňa hodnosti'
+        },
+        {
+            word: 'archeológia',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Archaeology.rome.arp.jpg/1024px-Archaeology.rome.arp.jpg',
+            description: 'Veda skúmajúca spôsob života a kultúru dávnych ľudských spoločností na základe vykopaných predmetov'
+        },
+        {
+            word: 'architekt',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Fotothek_df_roe-neg_0006271_040_Portr%C3%A4t_einer_Architektin_beim_Erstellen_einer_K.jpg',
+            description: 'Odborník v navrhovaní stavieb'
+        },
+        {
+            word: 'architektúra',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Sagrada_Familia.JPG',
+            description: 'Umenie a veda o navrhovaní a stavbe budov, objektov, stavieb a ich súborov, pamätníkov, rôznych doplnkov'
+        },
+        {
+            word: 'archív',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fondos_archivo.jpg/1024px-Fondos_archivo.jpg',
+            description: 'Zbierka písomností, dokumentov; inštitúcia na ich opatrovanie'
+        },
+        {
+            word: 'arcibiskup',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/P%C3%A9ter_Erd%C5%91_in_2011.jpg/800px-P%C3%A9ter_Erd%C5%91_in_2011.jpg',
+            description: 'Vysvätený člen kresťanského kléru, ktorý je na čele cirkevnej provincie'
         }
     ]
 }
